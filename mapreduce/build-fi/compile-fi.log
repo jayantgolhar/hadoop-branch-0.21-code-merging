@@ -1,0 +1,122 @@
+
+ivy-download:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+      [get] To: /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/ivy/ivy-2.1.0.jar
+      [get] Not modified - so not downloaded
+
+ivy-init-dirs:
+
+ivy-probe-antlib:
+
+ivy-init-antlib:
+
+ivy-init:
+[ivy:configure] :: loading settings :: file = /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/ivy/ivysettings.xml
+
+ivy-resolve-common:
+
+ivy-retrieve-common:
+[ivy:cachepath] DEPRECATED: 'ivy.conf.file' is deprecated, use 'ivy.settings.file' instead
+[ivy:cachepath] :: loading settings :: file = /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/ivy/ivysettings.xml
+
+init:
+    [touch] Creating /tmp/null2012780587
+   [delete] Deleting: /tmp/null2012780587
+    [unzip] Expanding: /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/ivy/lib/Hadoop/common/hadoop-hdfs-0.21.0-SNAPSHOT.jar into /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system
+     [copy] Copying 4 files to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/capacity-scheduler.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/capacity-scheduler.xml
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/fair-scheduler.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/fair-scheduler.xml
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/mapred-queues.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/mapred-queues.xml
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/mapred-site.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/mapred-site.xml
+     [copy] Copying 4 files to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/conf
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/capacity-scheduler.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/conf/capacity-scheduler.xml
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/fair-scheduler.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/conf/fair-scheduler.xml
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/mapred-queues.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/conf/mapred-queues.xml
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/conf/mapred-site.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/conf/mapred-site.xml
+     [copy] Copying 2 files to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/src/contrib
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/src/contrib/capacity-scheduler/src/java/mapred-queues.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/src/contrib/capacity-scheduler/src/java/mapred-queues.xml
+     [copy] Copying /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/src/contrib/index/conf/index-config.xml.template to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/src/contrib/index/conf/index-config.xml
+
+avro-generate:
+Trying to override old definition of task protocol
+
+compile-mapred-classes:
+    [javac] /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build.xml:388: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 22 source files to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+
+clover.setup:
+
+clover.info:
+     [echo] 
+     [echo]      Clover not found. Code coverage reports disabled.
+     [echo]   
+
+clover:
+
+check-c++-makefiles:
+
+create-c++-pipes-makefile:
+
+create-c++-utils-makefile:
+
+compile-c++-utils:
+
+compile-c++-pipes:
+
+compile-c++:
+
+compile-core:
+
+compile-tools:
+    [javac] /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build.xml:410: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+create-c++-examples-pipes-makefile:
+
+compile-c++-examples-pipes:
+
+compile-c++-examples:
+
+compile-examples:
+    [javac] /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build.xml:447: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+ivy-resolve-test:
+
+ivy-retrieve-test:
+
+compile-mapred-test:
+    [javac] /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build.xml:596: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build.xml:538: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 8 source files to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/mapred/testjar
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] Note: /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/src/test/mapred/testjar/UserNamePermission.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 warning
+   [delete] Deleting: /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/mapred/testjar/testjob.jar
+      [jar] Building jar: /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/mapred/testjar/testjob.jar
+    [javac] /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build.xml:557: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/mapred/testshell
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+   [delete] Deleting: /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/mapred/testshell/testshell.jar
+      [jar] Building jar: /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/mapred/testshell/testshell.jar
+   [delete] Deleting directory /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+    [mkdir] Created dir: /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+   [delete] Deleting directory /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/debug
+    [mkdir] Created dir: /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/debug
+     [copy] Copying 1 file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/debug
+     [copy] Copying 1 file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+     [copy] Copying 1 file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+     [copy] Copying 1 file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+     [copy] Copying 1 file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+     [copy] Copying 1 file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+     [copy] Copying 1 file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+     [copy] Copying 1 file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+     [copy] Copying 1 file to /home/jayant/Downloads/hadoop-branch-0.21-code-merging/mapreduce/build-fi/system/test/cache
+
+-classes-compilation:
+
+-compile-fault-inject:
+     [echo] Start weaving aspects in place
+     [echo] Weaving of aspects is finished
